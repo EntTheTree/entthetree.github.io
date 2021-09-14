@@ -19,14 +19,6 @@ jobs:
         run: npm ci
       # Step 3 - Add tests and linting here
       
-  step3:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v2
-      - name: Use Node.js
-        uses: actions/setup-node@v2
-      - name: Install dependencies
-        run: npm test
   
   
   deploy:
